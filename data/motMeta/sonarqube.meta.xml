@@ -1,0 +1,19 @@
+<motmetafile filetype="xml">
+
+	<structure>
+		<file/>
+		<line/>
+		<metric/>
+		<detail/>
+	</structure>
+
+	<definition>
+		<tool value="SonarQube"/>
+		<metric start="rule&gt;squid:" end="&lt;"/>
+		<file start="component&gt;juliettestsuite.scan:" end="&lt;"/>
+		<value value=""/>
+		<line start="line&gt;" end="&lt;"/>
+		<detail start="message&gt;" end="&lt;"/>
+	</definition>
+
+</motmetafile>

@@ -25,15 +25,15 @@ if __name__ == '__main__':
     print("collection flaws in testsuite")
     
     flawCollector = FlawCollector(config)
-    if(len(config.getCCppScannerList())>0):
-        startFlawCollection=time.time()
-        flawCollector.collect('ccpp')
-        endFlawCollection=time.time()
-        print("collected ccpp flaws in "+str((endFlawCollection-startFlawCollection))+" seconds")
-        for scanner in config.getCCppScannerList():
-            tmpDir = config.tmpCppDataPath+scanner.name
-            if (not os.path.exists(tmpDir)):
-                os.mkdir(tmpDir)
+    # if(len(config.getCCppScannerList())>0):
+    #     startFlawCollection=time.time()
+    #     flawCollector.collect('ccpp')
+    #     endFlawCollection=time.time()
+    #     print("collected ccpp flaws in "+str((endFlawCollection-startFlawCollection))+" seconds")
+    #     for scanner in config.getCCppScannerList():
+    #         tmpDir = config.tmpCppDataPath+scanner.name
+    #         if (not os.path.exists(tmpDir)):
+    #             os.mkdir(tmpDir)
     if(len(config.getJavaScannerList())>0):
         startFlawCollection=time.time()
         flawCollector.collect('java')
@@ -61,11 +61,11 @@ if __name__ == '__main__':
     print("transformed scanner results in "+str((endTransformTime-startTransformTime))+" seconds")
     
     compareTool = CompareTool(config)
-    if(len(config.getCCppScannerList())>0):
-        startCompareTime = time.time()
-        compareTool.compareResults(config.tmpCppDataPath, config.getCCppScannerList(), "C/C++")
-        endCompareTime = time.time()
-        print("compared CCPP analyzers in "+str((endCompareTime-startCompareTime))+" seconds")
+    # if(len(config.getCCppScannerList())>0):
+    #     startCompareTime = time.time()
+    #     compareTool.compareResults(config.tmpCppDataPath, config.getCCppScannerList(), "C/C++")
+    #     endCompareTime = time.time()
+    #     print("compared CCPP analyzers in "+str((endCompareTime-startCompareTime))+" seconds")
     if(len(config.getJavaScannerList())>0):
         startCompareTime = time.time()
         compareTool.compareResults(config.tmpJavaDataPath, config.getJavaScannerList(), "Java")

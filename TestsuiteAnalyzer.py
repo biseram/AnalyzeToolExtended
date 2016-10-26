@@ -10,6 +10,8 @@ import os
 import py_common
 import sys
 import time
+import json
+import dicttoxml
 # add parent directory to search path so we can use py_common
 sys.path.append("..")
 
@@ -37,7 +39,7 @@ class TestsuiteAnalyzer(object):
 		time_started = time.time()
 	
 		# find all the files
-		files = glob.glob(glob_needle)
+		files = glob.glob(glob_needle, recursive=True)
 	
 		lastDir = 'none'
 		# run all the files using the function pointer
@@ -51,6 +53,10 @@ class TestsuiteAnalyzer(object):
 				# run the the file
 				file = os.path.basename(file)
 				dirName = os.path.basename(dir)
+
+				if (dirName.startswith("s") or dirName.startswith("HelperClass")):
+					dirName = os.path.basename(os.path.dirname(dir))
+
 				#run_analysis_fx(file, scannerList)
 				for sc in scannerList:
 					if(not sc.scanFolder):
@@ -61,7 +67,15 @@ class TestsuiteAnalyzer(object):
 						print(sc.getCmdString(dir,dirName))
 						py_common.run_commands([sc.getCmdString(dir,dirName)], True)
 						lastDir=dir
-		
+						with open(sc.outputFile.replace("#filename", dirName).replace("Java/","Java/tmpDir/"), 'r') as infile:
+							if(sc.name == "sonarqube"):
+								data = json.load(infile)
+								xml = dicttoxml.dicttoxml(data, attr_type=False)
+								with open(sc.outputFile.replace("#filename", dirName).replace("json","xml"), 'ab') as outfile:
+									outfile.write(xml)
+							else:
+								with open(sc.outputFile.replace("#filename", dirName), 'a') as outfile:
+									outfile.write(infile.read())
 				# return to original working directory
 				os.chdir(sys.path[0])
 		
@@ -75,22 +89,27 @@ class TestsuiteAnalyzer(object):
 	
 	def runAnalyze(self):
 		cfg = self.config
-		ccppScannerList = cfg.getCCppScannerList()
+		# ccppScannerList = cfg.getCCppScannerList()
 		javaScannerList = cfg.getJavaScannerList()
 		
-		searchPathCCpp = cfg.ccpptestsuitePath #+ "\\testcases\\*\\CWE126_Buffer_Overread__CWE129_large_01.c"
+		# searchPathCCpp = cfg.ccpptestsuitePath #+ "\\testcases\\*\\CWE126_Buffer_Overread__CWE129_large_01.c"
 		searchPathJava = cfg.javatestsuitePath
 		#searchPath = testsuitePath + "\\testcases\\CWE15_External_Control_of_System_or_Configuration_Setting\\*.c*"
 		startAnalysis = time.time()
 		
-		if(len(ccppScannerList)>0):
-			print("start C/Cpp testcases")
-			ccppStartAnalysis = time.time()
-			self.run_analysis(searchPathCCpp, self.run_example_tool, ccppScannerList)
-			ccppEndAnalysis = time.time()
-			ccppOverallTime = (ccppEndAnalysis - ccppStartAnalysis)
+		# if(len(ccppScannerList)>0):
+		# 	print("start C/Cpp testcases")
+		# 	ccppStartAnalysis = time.time()
+		# 	self.run_analysis(searchPathCCpp, self.run_example_tool, ccppScannerList)
+		# 	ccppEndAnalysis = time.time()
+		# 	ccppOverallTime = (ccppEndAnalysis - ccppStartAnalysis)
 		
 		if(len(javaScannerList) >0):
+			# for dirs in os.walk(cfg.tmpJavaData):
+			# 	for dir in dirs:
+			# 		filelist = glob.glob(dir)
+					# for f in filelist:
+					# 	os.remove(f)
 			print("start java testcases")
 			javaStartAnalysis = time.time()
 			self.run_analysis(searchPathJava, self.run_example_tool, cfg.javaSrcScanners)
@@ -102,11 +121,12 @@ class TestsuiteAnalyzer(object):
 		overallTime = (endAnalysis - startAnalysis)
 		print("Overall analysis took " + str(overallTime)+" seconds;") 
 		
-		if(len(ccppScannerList)>0):
-			print("\t C/C++="+str(ccppOverallTime)+" seconds")
+		# if(len(ccppScannerList)>0):
+		# 	print("\t C/C++="+str(ccppOverallTime)+" seconds")
 			
 		if(len(javaScannerList) > 0):
 			print("\t Java="+str(javaOverallTime)+" seconds")
+
 if __name__ == '__main__':
 	cfg = AnalyzeToolConfig('config.cfg')
 	

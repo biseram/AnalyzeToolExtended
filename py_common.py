@@ -324,7 +324,7 @@ def print_with_timestamp(contents):
 	"""
 	print("[" + time.ctime(None) + "] " + contents)
 	
-def run_commands(commands, use_shell=False):
+def run_commands(commands, use_shell=True):
 	"""
 	Runs a command as if it were run in the command prompt.  If you need to use commands such as
 	"cd, dir, etc", set use_shell to True.
@@ -335,7 +335,7 @@ def run_commands(commands, use_shell=False):
 	time_started = time.time()
 	print("[" + time.ctime(time_started) + "] Started command: \"" + command + "\"")
 	sys.stdout.flush()
-	
+
 	subprocess.check_call(command, shell=use_shell, stderr=sys.stderr, stdout=sys.stdout)
 	
 	# Not using print_with_timestamp() here since we want to capture the time for the time diff

@@ -231,7 +231,7 @@ class FlawCollector(object):
 		#searchPath = 'C:\\Users\\user\\Masterarbeit\\Juliet_Test_Suite_v1.1_for_C_Cpp\\testcases\\CWE401_Memory_Leak\\*'
 		#searchPath ="C:\\Users\\user\Masterarbeit\\Juliet_Test_Suite_v1.1_for_C_Cpp\\testcases\\CWE126_Buffer_Overread\\*"
 		#searchPath ="C:\\Users\\user\Masterarbeit\\Juliet_Test_Suite_v1.1_for_C_Cpp\\testcases\\*\\*"
-		searchPath ="C:\\Users\\user\Masterarbeit\\Juliet_Test_Suite_v1.1.1_for_Java\\src\\testcases\\*\\*.java"
+		searchPath ="/Users/Bisera/Documents/Masterthesis/Juliet_Test_Suite_v1/src/testcases/**/*.java"
 		
 		if(testsuiteLanguage=='java'):
 			searchPath = self.config.javatestsuitePath
@@ -255,7 +255,7 @@ class FlawCollector(object):
 		
 		
 		
-		files = glob.glob(searchPath)
+		files = glob.glob(searchPath, recursive=True)
 	
 		root = Element('files')
 		

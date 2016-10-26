@@ -21,6 +21,8 @@ def convertResult(scanner, tmpDataDir):
 		converter = MSCompilerResultConverter(outputFile, tmpDataDir)
 	elif(scanner=="findbugs"):
 		converter = FindBugsResultConverter(outputFile, tmpDataDir)
+	elif(scanner=="findsecbugs"):
+		converter = FindBugsResultConverter(outputFile, tmpDataDir)
 	elif(scanner=="pmd"):
 		converter = PMDResultConverter(outputFile, tmpDataDir)
 	root = converter.getXML()
@@ -32,9 +34,9 @@ if __name__ == '__main__':
 	
 	converterMap = dict()
 	
-	for scanner in config.getCCppScannerList():
-		print("convert file for "+scanner.name)
-		convertResult(scanner.name, config.tmpCppDataPath)
+	# for scanner in config.getCCppScannerList():
+	# 	print("convert file for "+scanner.name)
+	# 	convertResult(scanner.name, config.tmpCppDataPath)
 	
 	for scanner in config.getJavaScannerList():
 		convertResult(scanner.name, config.tmpJavaDataPath)	

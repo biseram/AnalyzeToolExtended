@@ -47,18 +47,19 @@ class SecurityScanner(object):
 	# return the cmd String which can be run from the commandline
 	def getCmdString(self, file, fileName):
 		commandList = []
-		commandList.append("\"" + self.executable)
-		commandList.append("\"")
+		commandList.append(self.executable)
+		# commandList.append("\"" + self.executable)
+		# commandList.append("\"")
 		
 		
 		
 		
 		if(self.type=='java'):
 			if(hasattr(self, 'singleClassPathOption')):
-				classesPath = file[:file.index('\\antbuild')]+"\\antbuild\\testcasesupport\\"
+				classesPath = file[:file.index('/antbuild')]+"/antbuild/testcasesupport/"
 				for compiledClass in self.cfg.javaClassNames:
-					entry = self.singleClassPathOption+" "+classesPath+"\\"+compiledClass+".class"
-					entry = entry.replace("\\\\","\\")
+					entry = self.singleClassPathOption+" "+classesPath+"/"+compiledClass+".class"
+					entry = entry.replace("//","/")
 					commandList.append(entry)
 					
 				for javaLib in self.cfg.javaLibs:
@@ -69,8 +70,8 @@ class SecurityScanner(object):
 		if(hasattr(self, 'options')):
 			commandList.append(self.options)
 			
-		
-		commandList.append(file)
+		if (self.name != "sonarqube"):
+			commandList.append(file)
 		
 		if(hasattr(self, 'afterFileOptions')):
 			commandList.append(self.afterFileOptions)

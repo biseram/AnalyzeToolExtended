@@ -1,0 +1,199 @@
+<mappings scanner="SonarQube">
+	<scannerCode desc="SQL binding mechanisms should be used" name="S2077">
+	    <cwe id="20" />
+	    <cwe id="89" />
+	    <cwe id="564" />
+	    <cwe id="943" />
+	</scannerCode>
+	<scannerCode desc="Values passed to OS commands should be sanitized" name="S2076">
+	    <cwe id="78" />
+	    <cwe id="88" />
+	</scannerCode>
+	<scannerCode desc="Values passed to LDAP queries should be sanitized" name="S2078">
+	    <cwe id="90" />
+	</scannerCode>
+	<scannerCode desc="Struts validation forms should have unique names" name="S3374">
+	    <cwe id="102" />
+	</scannerCode>
+	<scannerCode desc="Math operands should be cast before assignment" name="S2184">
+	    <cwe id="190" />
+	</scannerCode>
+	<scannerCode desc="Credentials should not be hard-coded" name="S2068">
+	    <cwe id="259" />
+	    <cwe id="798" />
+	</scannerCode>
+	<scannerCode desc="Security constraints should be defined" name="S3369">
+	    <cwe id="284" />
+	</scannerCode>
+	<scannerCode desc="HTTP referers should not be relied on" name="S2089">
+	    <cwe id="293" />
+	    <cwe id="807" />
+	</scannerCode>
+	<scannerCode desc="Neither DES (Data Encryption Standard) nor DESede (3DES) should be used" name="S2278">
+	    <cwe id="326" />
+	    <cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="Pseudorandom number generators (PRNGs) should not be used in secure contexts" name="S2245">
+	    <cwe id="326" />
+	    <cwe id="330" />
+	    <cwe id="338" />
+	</scannerCode>
+	<scannerCode desc="Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)" name="S2277">
+	    <cwe id="327" />
+	    <cwe id="780" />
+	</scannerCode>
+	<scannerCode desc="'javax.crypto.NullCipher should not be used for anything other than testing" name="S2258">
+	    <cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="Only standard cryptographic algorithms should be used" name="S2257">
+	    <cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="SHA-1 and Message-Digest hash algorithms should not be used" name="S2070">
+	    <cwe id="327" />
+	    <cwe id="328" />
+	</scannerCode>
+	<scannerCode desc="Mutable members should not be stored or returned directly" name="S2384">
+	    <cwe id="374" />
+	    <cwe id="375" />
+	</scannerCode>
+	<scannerCode desc="Exit methods should not be called" name="S1147">
+	    <cwe id="382" />
+	</scannerCode>
+	<scannerCode desc="'InterruptedException should not be ignored" name="S2142">
+	    <cwe id="391" />
+	</scannerCode>
+	<scannerCode desc="'NullPointerException' should not be caught" name="S1696">
+	    <cwe id="395" />
+	</scannerCode>
+	<scannerCode desc="'Exception' should not be caught when not required by called methods" name="S2221">
+	    <cwe id="396" />
+	</scannerCode>
+	<scannerCode desc="Throwable and Error should not be caught" name="S1181">
+	    <cwe id="396" />
+	</scannerCode>
+	<scannerCode desc="Generic exceptions should never be thrown" name="S00112">
+	    <cwe id="397" />
+	</scannerCode>
+	<scannerCode desc="Blocks should be synchronized on 'private inal' fields" name="S2445">
+	    <cwe id="412" />
+	    <cwe id="413" />
+	</scannerCode>
+	<scannerCode desc="Locks should be released" name="S2222">
+	    <cwe id="459" />
+	</scannerCode>
+	<scannerCode desc="Resources should be closed" name="S2095">
+	    <cwe id="459" />
+	</scannerCode>
+	<scannerCode desc="'toString()' and 'clone()' methods should not return null" name="S2225">
+	    <cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="Null pointers should not be dereferenced" name="S2259">
+	    <cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="'@Deprecated' code should not be used" name="CallToDeprecatedMethod">
+	    <cwe id="477" />
+	</scannerCode>
+	<scannerCode desc="'switch' statements should end with default' clauses" name="SwitchLastCaseIsDefaultCheck">
+	    <cwe id="478" />
+	</scannerCode>
+	<scannerCode desc="Assignments should not be made from within sub-expressions" name="AssignmentInSubExpressionCheck">
+	    <cwe id="481" />
+	</scannerCode>
+	<scannerCode desc="Multiline blocks should be enclosed in curly braces" name="S2681">
+	    <cwe id="483" />
+	</scannerCode>
+	<scannerCode desc="Switch cases should end with an unconditional 'break' statement" name="S128">
+	    <cwe id="484" />
+	</scannerCode>
+	<scannerCode desc="Classes should not be compared by name" name="S1872">
+	    <cwe id="486" />
+	</scannerCode>
+	<scannerCode desc="Conditions should not unconditionally evaluate to 'TRUE' or to 'FALSE'" name="S2583">
+	    <cwe id="489" />
+	    <cwe id="570" />
+	    <cwe id="571" />
+	</scannerCode>
+	<scannerCode desc="Useless 'if(true) \{...\}' and 'if(false)\{...\}' blocks should be removed" name="S1145">
+	    <cwe id="489" />
+	    <cwe id="570" />
+	    <cwe id="571" />
+	</scannerCode>
+	<scannerCode desc="Web applications should not have a 'main' method" name="S2653">
+	    <cwe id="489" />
+	</scannerCode>
+	<scannerCode desc="Class variable fields should not have public accessibility" name="ClassVariableVisibilityChck">
+	    <cwe id="493" />
+	</scannerCode>
+	<scannerCode desc="'public static' fields should be constant" name="S1444">
+	    <cwe id="500" />
+	</scannerCode>
+	<scannerCode desc="Untrusted data should not be stored in sessions" name="S3318">
+	    <cwe id="501" />
+	</scannerCode>
+	<scannerCode desc="Classes should not be loaded dynamically" name="S2658">
+	    <cwe id="545" />
+	</scannerCode>
+	<scannerCode desc="'TODO' tags should be handled" name="S1135">
+	    <cwe id="546" />
+	</scannerCode>
+	<scannerCode desc="'FIXME' tags should be handled" name="S1134">
+	    <cwe id="546" />
+	</scannerCode>
+	<scannerCode desc="Dead stores should be removed" name="S1854">
+	    <cwe id="563" />
+	</scannerCode>
+	<scannerCode desc="super.finalize() should be called at the end of Object.finalize() implementations" name="ObjectFinalizeOverridenCallsSuperFinalizeCheck">
+	    <cwe id="568" />
+	</scannerCode>
+	<scannerCode desc="'instanceof' operators that always return 'true' or 'false' should be removed" name="S1850">
+	    <cwe id="570" />
+	    <cwe id="571" />
+	</scannerCode>
+	<scannerCode desc="Thread.run() should not be called directly" name="S1217">
+	    <cwe id="572" />
+	</scannerCode>
+	<scannerCode desc="Non-serializable objects should not be stored in 'HttpSession' objects" name="S2441">
+	    <cwe id="579" />
+	</scannerCode>
+	<scannerCode desc="Classes that override 'clone' should be 'Cloneable' and call 'super.clone()'" name="S1182">
+	    <cwe id="580" />
+	</scannerCode>
+	<scannerCode desc="'equals(Object obj)' and 'hashCode()' should be overridden in pairs" name="S1206">
+	    <cwe id="581" />
+	</scannerCode>
+	<scannerCode desc="Mutable fields should not be 'public static'" name="S2386">
+	    <cwe id="582" />
+	    <cwe id="607" />
+	</scannerCode>
+	<scannerCode desc="'Object.finalize()' should remain protected (versus public) when overriding" name="S1174">
+	    <cwe id="583" />
+	</scannerCode>
+	<scannerCode desc="Jump statements should not occur in 'finally' blocks" name="S1143">
+	    <cwe id="584" />
+	</scannerCode>
+	<scannerCode desc="Fields in a 'erializable' class should either be transient or serializable" name="S1948">
+	    <cwe id="594" />
+	</scannerCode>
+	<scannerCode desc="Objects should be compared with 'equals()'" name="S1698">
+	    <cwe id="595" />
+	    <cwe id="597" />
+	</scannerCode>
+	<scannerCode desc="Exceptions should not be thrown from servlet methods" name="S1989">
+	    <cwe id="600" />
+	</scannerCode>
+	<scannerCode desc="Cookies should be 'secure'" name="S2092">
+	    <cwe id="614" />
+	</scannerCode>
+	<scannerCode desc="Return values should not be ignored wen they contain the operation status code" name="S899">
+	    <cwe id="754" />
+	</scannerCode>
+	<scannerCode desc="Limited dependence should be placed on operator precedence rules in expressions" name="S864">
+	    <cwe id="783" />
+	</scannerCode>
+	<scannerCode desc="'HttpServletRequest.getRequestedSessionId()' should not be used" name="S2254">
+	    <cwe id="807" />
+	</scannerCode>
+	<scannerCode desc="Equality operators should not be used in 'for' loop termination conditions" name="S888">
+	    <cwe id="835" />
+	</scannerCode>
+</mappings>

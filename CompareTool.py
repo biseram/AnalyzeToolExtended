@@ -11,7 +11,7 @@ from collections import OrderedDict
 import xml.etree.ElementTree as ET
 from xml.dom.minidom import parseString
 import os
-from pylab import *
+from matplotlib.pylab import *
 from ScannerCWEMapping import ScannerCWEMapping
 import csv
 from ScannerIssueHolder import ScannerIssueHolder
@@ -167,12 +167,12 @@ class CompareTool(object):
 				secModelResult = securityModelResultMap[scanner]
 				comparisonResult = scannerResults.get(scanner)
 				comparisonResult.addIssue(issueComparison,issueHolder)
-				
+
 				secModelResult.addIssueComparision(issueComparison)
 				
 				if(scanner!='JULIET'):
 					scannerXMLResult = ET.SubElement(fileIssue, 'scanner', {'name' : scanner, 'foundIssues': str(len(issueHolder.foundIssues)),'realIssues': str(len(issueComparison.existingIssues)), 'correctLineMatches' : str(issueHolder.correctMatchCnt), 'differentLineMatches' : str(issueHolder.differentLineMatches), 'differentTypeMatches' : str(issueHolder.rangeMatch), 'differentTypeMatches' : str(issueHolder.rangeMatch), 'noneMatching' : str(issueComparison.noneMatching)})
-				
+
 		print("=============================")
 		print("========"+title+" SUMMARY========")
 		print("=============================")
@@ -259,7 +259,7 @@ class CompareTool(object):
 		savefig(baseDir+"report"+scannerName+"piechart.png")
 		
 	def compareResults(self, tmpDataDir, scannerList, title):
-		reportDir = tmpDataDir+"report\\"
+		reportDir = tmpDataDir+"report/"
 		existingIssuesFile = tmpDataDir+'existingIssues.xml'
 		
 		if(not os.path.isfile(existingIssuesFile)):
@@ -290,7 +290,7 @@ if __name__ == '__main__':
 	cfg = AnalyzeToolConfig('config.cfg')
 	
 	tool = CompareTool(cfg)
-	if(len(cfg.getCCppScannerList())>0):
-		tool.compareResults(cfg.tmpCppDataPath, cfg.getCCppScannerList(), "C/C++")
+	# if(len(cfg.getCCppScannerList())>0):
+	# 	tool.compareResults(cfg.tmpCppDataPath, cfg.getCCppScannerList(), "C/C++")
 	if(len(cfg.getJavaScannerList())>0):
 		tool.compareResults(cfg.tmpJavaDataPath, cfg.getJavaScannerList(), "Java")

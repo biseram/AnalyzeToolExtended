@@ -1,8 +1,8 @@
 import glob
 if __name__ == '__main__':
     
-    srcPath = 'C:\\Users\\user\\Masterarbeit\\tmpData\\Java\\findbugs\\'
-    srcPath2 = 'C:\\Users\\user\\Masterarbeit\\tmpData\\Java\\findbugs\\*'
+    srcPath = '/Users/Bisera/Documents/Masterthesis/tmpData/Java/findbugs/'
+    srcPath2 = '/Users/Bisera/Documents/Masterthesis/tmpData/Java/findbugs/*'
     
     fileList = glob.glob(srcPath2)
    

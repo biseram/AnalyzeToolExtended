@@ -1,0 +1,226 @@
+<mappings scanner="FindSecBugs">
+	<scannerCode desc="CN_IDIOM_NO_SUPER_CALL" name="CMNS">
+	    <cwe id="580" />
+	</scannerCode>
+	<scannerCode desc="DM_EXIT" name="MISE">
+		<cwe id="382" />
+	</scannerCode>
+	<scannerCode desc="FI_EXPLICIT_INVOCATION" name="EIOF">
+		<cwe id="586" />
+	</scannerCode>
+	<scannerCode desc="FI_MISSING_SUPER_CALL" name="FNSF">
+		<cwe id="568" />
+	</scannerCode>
+	<scannerCode desc="HE_EQUALS_NO_HASHCODE" name="EQNH">
+		<cwe id="581" />
+	</scannerCode>
+	<scannerCode desc="HE_EQUALS_USE_HASHCODE" name="CDEU">
+		<cwe id="581" />
+	</scannerCode>
+	<scannerCode desc="J2EE_STORE_OF_NON_SERIALIZABLE_OBJECT_INTO_SESSION" name="SNSO">
+		<cwe id="579" />
+	</scannerCode>
+	<scannerCode desc="ODR_OPEN_DATABASE_RESOURCE" name="FCDB">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH" name="DNCE">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="OS_OPEN_STREAM" name="FNCS">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="OS_OPEN_STREAM_EXCEPTION_PATH" name="SNCE">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="BC_IMPOSSIBLE_INSTANCEOF" name="IMIN">
+		<cwe id="570" />
+	</scannerCode>
+	<scannerCode desc="EQ_ALWAYS_FALSE" name="EQAF">
+		<cwe id="570" />
+	</scannerCode>
+	<scannerCode desc="EQ_ALWAYS_TRUE" name="EQAT">
+		<cwe id="571" />
+	</scannerCode>
+	<scannerCode desc="ICAST_INT_2_LONG_AS_INSTANT" name="IICPC">
+		<cwe id="681" />
+	</scannerCode>
+	<scannerCode desc="ICAST_INT_CAST_TO_DOUBLE_PASSED_TO_CEIL" name="IVCD">
+		<cwe id="681" />
+	</scannerCode>
+	<scannerCode desc="ICAST_INT_CAST_TO_FLOAT_PASSED_TO_ROUND" name="IVCF">
+		<cwe id="681" />
+	</scannerCode>
+	<scannerCode desc="IL_INFINITE_LOOP" name="AAIL">
+		<cwe id="835" />
+	</scannerCode>
+	<scannerCode desc="NP_ALWAYS_NULL" name="NPIM">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="NP_ALWAYS_NULL_EXCEPTION" name="NPDM">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="NP_NULL_ON_SOME_PATH" name="PNPD">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="NP_NULL_ON_SOME_PATH_EXCEPTION" name="PONP">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="SF_DEAD_STORE_DUE_TO_SWITCH_FALLTHROUGH" name="DSDS">
+		<cwe id="484" />
+	</scannerCode>
+	<scannerCode desc="SF_DEAD_STORE_DUE_TO_SWITCH_FALLTHROUGH_TO_THROW" name="CSWB">
+		<cwe id="484" />
+	</scannerCode>
+	<scannerCode desc="OBL_UNSATISFIED_OBLIGATION" name="OUOON">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" name="OUOEE">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="MS_SHOULD_BE_FINAL" name="FSBF">
+		<cwe id="500" />
+	</scannerCode>
+	<scannerCode desc="MS_SHOULD_BE_REFACTORED_TO_BE_FINAL" name="MSRTF">
+		<cwe id="500" />
+	</scannerCode>
+	<scannerCode desc="ESync_EMPTY_SYNC" name="ESYB">
+		<cwe id="585" />
+	</scannerCode>
+	<scannerCode desc="RU_INVOKE_RUN" name="EIOR">
+		<cwe id="572" />
+	</scannerCode>
+	<scannerCode desc="UUF_UNUSED_FIELD" name="UNUF">
+		<cwe id="563" />
+	</scannerCode>
+	<scannerCode desc="DMI_CONSTANT_DB_PASSWORD" name="CDBP">
+		<cwe id="256" />
+	</scannerCode>
+	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_COOKIE" name="RPHH">
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_HTTP_HEADER" name="RPHH">
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="PT_ABSOLUTE_PATH_TRAVERSAL" name="PTAPT">
+		<cwe id="36" />
+	</scannerCode>
+	<scannerCode desc="PT_RELATIVE_PATH_TRAVERSAL" name="PTRPT">
+		<cwe id="23" />
+	</scannerCode>
+	<scannerCode desc="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" name="NSTM">
+		<cwe id="90" />
+	</scannerCode>
+	<scannerCode desc="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" name="PSGS">
+		<cwe id="90" />
+	</scannerCode>
+	<scannerCode desc="XSS_REQUEST_PARAMETER_TO_JSP_WRITER" name="RPRJ">
+		<cwe id="80" />
+	</scannerCode>
+	<scannerCode desc="XSS_REQUEST_PARAMETER_TO_SEND_ERROR" name="RPSE">
+		<cwe id="81" />
+	</scannerCode>
+	<scannerCode desc="XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER" name="RPSW">
+		<cwe id="83" />
+	</scannerCode>
+	<scannerCode desc="ICAST_IDIV_CAST_TO_DOUBLE" name="IDDF">
+		<cwe id="681" />
+	</scannerCode>
+	<scannerCode desc="ICAST_INTEGER_MULTIPLY_CAST_TO_LONG" name="RIML">
+		<cwe id="681" />
+	</scannerCode>
+	<scannerCode desc="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" name="PNPR">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="NP_NULL_ON_SOME_PATH_MIGHT_BE_INFEASIBLE" name="PNMI">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="SF_SWITCH_FALLTHROUGH" name="CSWB">
+		<cwe id="484" />
+	</scannerCode>
+	<scannerCode desc="SF_SWITCH_NO_DEFAULT" name="SFSND">
+		<cwe id="478" />
+	</scannerCode>
+	<scannerCode desc="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" name="UUPPF">
+		<cwe id="563" />
+	</scannerCode>
+	<scannerCode desc="STATIC_IV" name="STAIV">
+		<cwe id="329" />
+	</scannerCode>
+	<scannerCode desc="XSS_SERVLET" name="SECXSS2">
+		<cwe id="79" />
+	</scannerCode>
+	<scannerCode desc="XPATH_INJECTION" name="SECXPI">
+		<cwe id="643" />
+	</scannerCode>
+	<scannerCode desc="UNENCRYPTED_SOCKET" name="SECUS">
+		<cwe id="319" />
+	</scannerCode>
+	<scannerCode desc="UNVALIDATED_REDIRECT" name="SECUR">
+		<cwe id="601" />
+	</scannerCode>
+	<scannerCode desc="SQL_INJECTION_JDBC" name="SECSQLIJDBC">
+		<cwe id="89" />
+	</scannerCode>
+	<scannerCode desc="WEAK_MESSAGE_DIGEST_SHA1" name="SECSHA1">
+		<cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="PATH_TRAVERSAL_IN" name="SECPTI">
+		<cwe id="22" />
+	</scannerCode>
+	<scannerCode desc="PREDICTABLE_RANDOM" name="SECPR">
+		<cwe id="330" />
+	</scannerCode>
+	<scannerCode desc="OBJECT_DESERIALIZATION" name="SECOBDES">
+		<cwe id="502" />
+	</scannerCode>
+	<scannerCode desc="WEAK_MESSAGE_DIGEST_MD5" name="SECMD5">
+		<cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="LDAP_INJECTION" name="SECLDAPI">
+		<cwe id="90" />
+	</scannerCode>
+	<scannerCode desc="INSECURE_COOKIE" name="SECIC">
+		<cwe id="614" />
+		<cwe id="311" />
+		<cwe id="315" />
+	</scannerCode>
+	<scannerCode desc="HTTP_RESPONSE_SPLITTING" name="SECHRS">
+		<cwe id="93" />
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="DMI_EMPTY_DB_PASSWORD" name="EDBP">
+		<cwe id="259" />
+	</scannerCode>
+	<scannerCode desc="HARD_CODE_PASSWORD" name="SECHCP">
+		<cwe id="259" />
+	</scannerCode>
+	<scannerCode desc="HARD_CODE_KEY" name="SECHCK">
+		<cwe id="321" />
+	</scannerCode>
+	<scannerCode desc="DES_USAGE" name="SECDU">
+		<cwe id="326" />
+	</scannerCode>
+	<scannerCode desc="CRLF_INJECTION_LOGS" name="SECCRLFLOG">
+		<cwe id="117" />
+		<cwe id="93" />
+	</scannerCode>
+	<scannerCode desc="EXTERNAL_CONFIG_CONTROL" name="SECCONFCTRL">
+		<cwe id="15" />
+	</scannerCode>
+	<scannerCode desc="COMMAND_INJECTION" name="SECCI">
+		<cwe id="78" />
+	</scannerCode>
+	<scannerCode desc="PADDING_ORACLE" name="PO">
+		<cwe id="696" />
+	</scannerCode>
+	<scannerCode desc="CIPHER_INTEGRITY" name="PADORA">
+		<cwe id="353" />
+	</scannerCode>
+</mappings>
+
+	<!--
+
+	HTTPONLY_COOKIE OWASP: HttpOnly   name="SECHOC"
+	ECB_MODE
+
+	-->

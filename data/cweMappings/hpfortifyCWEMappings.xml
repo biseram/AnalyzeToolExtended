@@ -1,0 +1,219 @@
+<mappings scanner="HPFortify">
+	<scannerCode desc="Access Control: Amazon Web Services" name="Access Control: Amazon Web Services">
+	    <cwe id="566" />
+	</scannerCode>
+	<scannerCode desc="Access Control: Android Provider" name="Access Control: Android Provider">
+	    <cwe id="566" />
+	</scannerCode>
+	<scannerCode desc="Access Control: Anonymous LDAP Bind" name="Access Control: Anonymous LDAP Bind">
+	    <cwe id="285" />
+	</scannerCode>
+	<scannerCode desc="Access Control: Database" name="Access Control: Database">
+	    <cwe id="566" />
+	</scannerCode>
+	<scannerCode desc="Access Control: LDAP" name="Access Control: LDAP">
+	    <cwe id="639" />
+	</scannerCode>
+	<!--scannerCode desc="Access Control: SecurityManager Bypass" name="Access Control: SecurityManager Bypass">
+	    <cwe id="" />
+	</scannerCode-->
+	<scannerCode desc="Access Control: Weak Security Constraint" name="Access Control: Weak Security Constraint">
+	    <cwe id="285" />
+	</scannerCode>
+	<scannerCode desc="Acegi Misconfiguration: Insecure Channel Mixing" name="Acegi Misconfiguration: Insecure Channel Mixing">
+	    <cwe id="5" />
+	</scannerCode>
+	<scannerCode desc="Acegi Misconfiguration: Run-As Authentication Replacement" name="Acegi Misconfiguration: Run-As Authentication Replacement">
+	    <cwe id="724" />
+	</scannerCode>
+	<scannerCode desc="Axis 2 Misconfiguration: Insecure Transport Receiver" name="Axis 2 Misconfiguration: Insecure Transport Receiver">
+	    <cwe id="311" />
+	</scannerCode>
+	<scannerCode desc="Axis 2 Misconfiguration: Insecure Transport Sender" name="Axis 2 Misconfiguration: Insecure Transport Sender">
+	    <cwe id="311" />
+	</scannerCode>
+	<scannerCode desc="Cookie Security: Cookie not Sent Over SSL" name="Cookie Security: Cookie not Sent Over SSL">
+	    <cwe id="614" />
+	</scannerCode>
+	<scannerCode desc="Cookie Security: HTTPOnly not Set" name="Cookie Security: HTTPOnly not Set">
+	    <cwe id="87" />
+	</scannerCode>
+	<!--scannerCode desc="Cookie Security: Overly Broad Domain" name="Cookie Security: Overly Broad Domain">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc="Cookie Security: Overly Broad Path" name="Cookie Security: Overly Broad Path">
+	    <cwe id="" />
+	</scannerCode-->
+	<scannerCode desc="Cookie Security: Persistent Cookie" name="Cookie Security: Persistent Cookie">
+	    <cwe id="539" />
+	</scannerCode>
+	<scannerCode desc="HTTP Verb Tampering" name="HTTP Verb Tampering">
+	    <cwe id="288" />
+	</scannerCode>
+	<scannerCode desc="Insecure Randomness" name="Insecure Randomness">
+	    <cwe id="338" />
+	</scannerCode>
+	<scannerCode desc="Insecure Randomness: Hardcoded Seed" name="Insecure Randomness: Hardcoded Seed">
+	    <cwe id="336" />
+	</scannerCode>
+	<scannerCode desc="Insecure Randomness: User-Controlled Seed" name="Insecure Randomness: User-Controlled Seed">
+	    <cwe id="335" />
+	</scannerCode>
+	<scannerCode desc="Insecure SSL: Inadequate Certificate Verification" name="Insecure SSL: Inadequate Certificate Verification">
+	    <cwe id="297" />
+	</scannerCode>
+	<scannerCode desc="Insecure SSL: Overly Broad Certificate Trust" name="Insecure SSL: Overly Broad Certificate Trust">
+	    <cwe id="297" />
+	</scannerCode>
+	<scannerCode desc="Insecure SSL: Server Identity Verification Disabled" name="Insecure SSL: Server Identity Verification Disabled">
+	    <cwe id="297" />
+	</scannerCode>
+	<scannerCode desc="Insecure Transport" name="Insecure Transport">
+	    <cwe id="311" />
+	</scannerCode>
+	<scannerCode desc="Insecure Transport: Mail Transmission" name="Insecure Transport: Mail Transmission">
+	    <cwe id="200" />
+	</scannerCode>
+	<scannerCode desc="J2EE Misconfiguration: Insecure Transport" name="J2EE Misconfiguration: Insecure Transport">
+	    <cwe id="5" />
+	</scannerCode>
+	<scannerCode desc="Key Management: Empty Encryption Key" name="Key Management: Empty Encryption Key">
+	    <cwe id="321" />
+	</scannerCode>
+	<scannerCode desc="Key Management: Empty HMAC Key" name="Key Management: Empty HMAC Key">
+	    <cwe id="321" />
+	</scannerCode>
+	<scannerCode desc="Key Management: Hardcoded Encryption Key" name="Key Management: Hardcoded Encryption Key">
+	    <cwe id="321" />
+	</scannerCode>
+	<scannerCode desc="Key Management: Hardcoded HMAC Key" name="Key Management: Hardcoded HMAC Key">
+	    <cwe id="321" />
+	</scannerCode>
+	<scannerCode desc="Key Management: Null Encryption Key" name="Key Management: Null Encryption Key">
+	    <cwe id="321" />
+	</scannerCode>
+	<scannerCode desc="Missing SecurityManager Check: Cloneable" name="Missing SecurityManager Check: Cloneable">
+	    <cwe id="358" />
+	</scannerCode>
+	<scannerCode desc="Missing SecurityManager Check: Serializable" name="Missing SecurityManager Check: Serializable">
+	    <cwe id="358" />
+	</scannerCode>
+	<scannerCode desc="PCI Privacy Violation" name="PCI Privacy Violation">
+	    <cwe id="359" />
+	</scannerCode>
+	<scannerCode desc="Password Management" name="Password Management">
+	    <cwe id="256" />
+	</scannerCode>
+	<scannerCode desc="Password Management: Empty Password" name="Password Management: Empty Password">
+	    <cwe id="259" />
+	</scannerCode>
+	<scannerCode desc="Password Management: Hardcoded Password" name="Password Management: Hardcoded Password">
+	    <cwe id="259" />
+	    <cwe id="798" />
+	</scannerCode>
+	<scannerCode desc="Password Management: Null Password" name="Password Management: Null Password">
+	    <cwe id="259" />
+	</scannerCode>
+	<scannerCode desc="Password Management: Password in Comment" name="Password Management: Password in Comment">
+	    <cwe id="615" />
+	</scannerCode>
+	<scannerCode desc="Password Management: Password in Redirect" name="Password Management: Password in Redirect">
+	    <cwe id="359" />
+	</scannerCode>
+	<scannerCode desc="Password Management: Weak Cryptography" name="Password Management: Weak Cryptography">
+	    <cwe id="261" />
+	</scannerCode>
+	<scannerCode desc="Privacy Violation" name="Privacy Violation">
+	    <cwe id="359" />
+	</scannerCode>
+	<scannerCode desc="Privacy Violation: Heap Inspection" name="Privacy Violation: Heap Inspection">
+	    <cwe id="226" />
+	</scannerCode>
+	<scannerCode desc="Privacy Violation: Shoulder Surfing" name="Privacy Violation: Shoulder Surfing">
+	    <cwe id="549" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Amazon Web Services Unchecked Permissions" name="Privilege Management: Amazon Web Services Unchecked Permissions">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Dangerous Intent Permission" name="Privilege Management: Dangerous Intent Permission">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Missing API Permission" name="Privilege Management: Missing API Permission">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Missing Content Provider Permission" name="Privilege Management: Missing Content Provider Permission">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Missing Intent Permission" name="Privilege Management: Missing Intent Permission">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Overly Broad Access Specifier" name="Privilege Management: Overly Broad Access Specifier">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Overriding Permission Verification" name="Privilege Management: Overriding Permission Verification">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Privilege Management: Unnecessary Permission" name="Privilege Management: Unnecessary Permission">
+	    <cwe id="265" />
+	</scannerCode>
+	<scannerCode desc="Tomcat Configuration: Insecure Transport" name="Tomcat Configuration: Insecure Transport">
+	    <cwe id="5" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash" name="Weak Cryptographic Hash">
+	    <cwe id="328" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: Hardcoded PBE Salt" name="Weak Cryptographic Hash: Hardcoded PBE Salt">
+	    <cwe id="760" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: Hardcoded Salt" name="Weak Cryptographic Hash: Hardcoded Salt">
+	    <cwe id="760" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: Insecure PBE Iteration Count" name="Weak Cryptographic Hash: Insecure PBE Iteration Count">
+	    <cwe id="916" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: Missing Required Step" name="Weak Cryptographic Hash: Missing Required Step">
+	    <cwe id="325" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: User-Controlled Algorithm" name="Weak Cryptographic Hash: User-Controlled Algorithm">
+	    <cwe id="328" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: User-Controlled PBE Salt" name="Weak Cryptographic Hash: User-Controlled PBE Salt">
+	    <cwe id="328" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Hash: User-Controlled Salt" name="Weak Cryptographic Hash: User-Controlled Salt">
+	    <cwe id="328" />
+	</scannerCode>
+	<scannerCode desc="Weak Cryptographic Signature: Missing Required Step" name="Weak Cryptographic Signature: Missing Required Step">
+	    <cwe id="325" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption" name="Weak Encryption">
+	    <cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: Byte Array to String Conversion" name="Weak Encryption: Byte Array to String Conversion">
+	    <cwe id="320" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: Inadequate RSA Padding" name="Weak Encryption: Inadequate RSA Padding">
+	    <cwe id="780" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: Insecure Initialization Vector" name="Weak Encryption: Insecure Initialization Vector">
+	    <cwe id="329" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: Insecure Mode of Operation" name="Weak Encryption: Insecure Mode of Operation">
+	    <cwe id="327" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: Insufficient Key Size" name="Weak Encryption: Insufficient Key Size">
+	    <cwe id="326" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: Missing Required Step" name="Weak Encryption: Missing Required Step">
+	    <cwe id="325" />
+	</scannerCode>
+	<scannerCode desc="Weak Encryption: User-Controlled Key Size" name="Weak Encryption: User-Controlled Key Size">
+	    <cwe id="320" />
+	</scannerCode>
+	<scannerCode desc="Weak SecurityManager Check: Overridable Method" name="Weak SecurityManager Check: Overridable Method">
+	    <cwe id="358" />
+	</scannerCode>
+	<scannerCode desc="System Information Leak: Internal" name="System Information Leak: Internal">
+	    <cwe id="497" />
+	</scannerCode>
+</mappings>

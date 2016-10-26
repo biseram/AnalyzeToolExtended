@@ -1,0 +1,34 @@
+<mappings scanner="LapsePlus">
+	<scannerCode desc="Parameter Tampering" name="PTMP">
+	    <cwe id="472" />
+	</scannerCode>
+	<scannerCode desc="Cookie Poisoning" name="CP">
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="Header Manipulation" name="HM">
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="Information Leakage" name="IL">
+		<cwe id="209" />
+	</scannerCode>
+	<scannerCode desc="Path Traversal" name="PTR">
+		<cwe id="22" />
+		<cwe id="23" />
+		<cwe id="36" />
+	</scannerCode>
+	<scannerCode desc="Cross-site Scripting" name="XSS">
+		<cwe id="79" />
+	</scannerCode>
+	<scannerCode desc="Command Injection" name="CI">
+		<cwe id="78" />
+	</scannerCode>
+	<scannerCode desc="SQL Injection" name="SQLI">
+		<cwe id="89" />
+	</scannerCode>
+	<scannerCode desc="HTTP Response Splitting" name="HTTPRS">
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="Xpath Injection" name="XI">
+		<cwe id="643" />
+	</scannerCode>
+</mappings>

@@ -28,7 +28,7 @@ class ComparisonResultHolder(object):
 	#	self.issueCnt+=
 		
 	def getXMLSubelement(self, parent, elementName, elementKey):
-		return ET.SubElement(parent, elementName, {'name' : elementKey, 'found' : str(self.issueCnt), 'realIssues': str(self.realIssues), 'correctlineMatches' : str(self.correctMatchCnt),'differentLineMatches' : str(self.differentLineMatches), 'differentTypeMatches' : str(self.rangeMatch), 'rangeMatch' : str(self.rangeMatch), 'noneMatching' : str(self.noneMatching)})
+		return ET.SubElement(parent, elementName, {'name' : elementKey, 'found' : str(self.issueCnt), 'realIssues': str(self.realIssues), 'correctlineMatches' : str(self.correctMatchCnt),'differentLineMatches' : str(self.differentLineMatches), 'differentTypeMatches' : str(self.differentTypeMatches), 'rangeMatch' : str(self.rangeMatch), 'noneMatching' : str(self.noneMatching)})
 	
 	def printDetailData(self):
 		print("\t"+str(self.correctMatchCnt)+" correct line matches")

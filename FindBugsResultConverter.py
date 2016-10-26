@@ -12,7 +12,7 @@ class FindBugsResultConverter(ResultConverter):
 	
 	def getXML(self):
 		self.buildIssueList()
-		root = ET.Element("results", {'securityScanner' : 'findbugs'})
+		root = ET.Element("results", {'securityScanner' : 'findsecbugs'})
 		for key, value in self.issueMap.items():
 			#print(key)
 			fileElement = ET.SubElement(root, 'file', {'path' : key})
@@ -23,7 +23,7 @@ class FindBugsResultConverter(ResultConverter):
 	
 	def buildIssueList(self):
 		
-		eTree = ET.parse(self.baseDir+'findbugsresult.xml')
+		eTree = ET.parse(self.baseDir+'findsecbugs/findsecbugs.xml')
 		root = eTree.getroot()
 		for error in root.iter("BugInstance"):
 			category = error.get('category')
