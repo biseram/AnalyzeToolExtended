@@ -60,6 +60,7 @@
         <item child="Juliet-Testsuite$CWE584" parent="Control%20Flow%20Management"/>
         <item child="Juliet-Testsuite$CWE606" parent="Control%20Flow%20Management"/>
         <item child="Juliet-Testsuite$CWE609" parent="Control%20Flow%20Management"/>
+        <item child="Juliet-Testsuite$CWE667" parent="Control%20Flow%20Management"/>
         <item child="Juliet-Testsuite$CWE674" parent="Control%20Flow%20Management"/>
         <item child="Juliet-Testsuite$CWE698" parent="Control%20Flow%20Management"/>
         <item child="Juliet-Testsuite$CWE764" parent="Control%20Flow%20Management"/>
@@ -107,9 +108,11 @@
         <item child="Juliet-Testsuite$CWE244" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE497" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE499" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE526" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE533" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE534" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE535" parent="Information%20Leaks"/>
+        <item child="Juliet-Testsuite$CWE539" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE591" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE598" parent="Information%20Leaks"/>
         <item child="Juliet-Testsuite$CWE615" parent="Information%20Leaks"/>

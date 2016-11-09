@@ -74,7 +74,7 @@
 	<scannerCode desc="OBL_UNSATISFIED_OBLIGATION" name="OUOON">
 		<cwe id="404" />
 	</scannerCode>
-	<scannerCode desc="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" name="OUOEE">
+	<scannerCode desc="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" name="UOEE">
 		<cwe id="404" />
 	</scannerCode>
 	<scannerCode desc="MS_SHOULD_BE_FINAL" name="FSBF">
@@ -140,4 +140,165 @@
 	<scannerCode desc="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" name="UUPPF">
 		<cwe id="563" />
 	</scannerCode>
+
+	<scannerCode desc="" name="ABPT">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="BCSB">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="BCWI">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="CCHC">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="CNSV">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="DBIM">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="DEEN">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="DSCO">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="DSLV">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="FNUF">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="FSPP">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="IODC">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="IOTS">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="LKNV">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MABL">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MCPN1">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MEIR">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MIIU">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MIRV1">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MRRM">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="MSWL">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="NOVP">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="NRLE">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="NVGD">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="NVMC">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="REPT">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="RIRI">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="RNCN">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="RNCV">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="ROSR">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="RPTC">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="SALV">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="SWND">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="UCFM">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="UNOB">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="UNPP">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="UNRF">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="VCIV">
+		<cwe id="" />
+
+	</scannerCode>
+	<scannerCode desc="" name="VNGD">
+		<cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc="" name="WTSF">
+		<cwe id="" />
+	</scannerCode>
+
 </mappings>

@@ -216,6 +216,18 @@
 	<scannerCode desc="CIPHER_INTEGRITY" name="PADORA">
 		<cwe id="353" />
 	</scannerCode>
+	<scannerCode desc="" name="CCHC">
+		<cwe id="" />
+	</scannerCode>
+	<scannerCode desc="" name="RPTC">
+		<cwe id="" />
+	</scannerCode>
+	<scannerCode desc="" name="REPT">
+		<cwe id="" />
+	</scannerCode>
+	<scannerCode desc="" name="ABPT">
+		<cwe id="" />
+	</scannerCode>
 </mappings>
 
 	<!--

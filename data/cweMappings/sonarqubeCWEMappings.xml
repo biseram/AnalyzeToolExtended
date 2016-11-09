@@ -196,4 +196,231 @@
 	<scannerCode desc="Equality operators should not be used in 'for' loop termination conditions" name="S888">
 	    <cwe id="835" />
 	</scannerCode>
+
+	<scannerCode desc=" " name="ClassVariableVisibilityCheck">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="CommentedOutCodeLine">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="MethodCyclomaticComplexity">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="ModifiersOrderCheck">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="ObjectFinalizeCheck">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="ObjectFinalizeOverridenCheck">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S00100">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S00101">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S00108">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S00116">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S00117">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S00120">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S00122">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S106">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S1066">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S1118">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S1125">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1126">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1132">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1141">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1148">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1149">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1151">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1161">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1166">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1171">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1172">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1192">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1197">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1199">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1213">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1226">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1301">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1313">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1319">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S134">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S135">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1481">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1488">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1604">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1610">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1659">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1764">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S1905">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2093">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2116">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2131">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2133">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2157">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2178">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2189">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2276">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2293">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2674">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2696">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S2975">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="S3346">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="UselessImportCheck">
+	    <cwe id="" />
+	</scannerCode>
+
+	<scannerCode desc=" " name="UselessParenthesesCheck">
+	    <cwe id="" />
+	</scannerCode>
+
 </mappings>

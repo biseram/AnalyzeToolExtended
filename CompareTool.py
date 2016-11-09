@@ -105,21 +105,23 @@ class CompareTool(object):
 					
 					if(lastFileName==''):
 						lastFileName = scannedFile;
-					
-					scannerIssue = ScannerIssueHolder(scannedFile,abbrv, cweEntry, cweList, lineNumber)
-					issueList.append(scannerIssue)
+
 					if(lastFileName!=scannedFile):
 						#print(scannedFile)
-						if(scannedFile in flawMap):
-							issueComparison = flawMap.get(scannedFile);
+						if(lastFileName in flawMap):
+							issueComparison = flawMap.get(lastFileName);
 						else:
-							issueComparison = IssueComparison(scannedFile)
-							flawMap[scannedFile] = issueComparison;
+							issueComparison = IssueComparison(lastFileName)
+							flawMap[lastFileName] = issueComparison;
 						#foundIssueCnt+=len(issueList)
 						issueComparison.addFoundScannerIssues(scanner, issueList)
 						issueList = []
 						lastFileName = scannedFile
-					
+
+					if(lastFileName==scannedFile):
+						scannerIssue = ScannerIssueHolder(scannedFile,abbrv, cweEntry, cweList, lineNumber)
+						issueList.append(scannerIssue)
+
 			#print("ISSUE-CNT: "+str(foundIssueCnt))
 		'''eTree = ET.parse(file)
 		root = eTree.getroot()
@@ -151,7 +153,7 @@ class CompareTool(object):
 			#print(key)
 			
 			if(len(issueComparison.existingIssues) >0):
-				totalIssues = 1
+				totalIssues = 1 # this part is not clear ???
 			else:
 				totalIssues = 0
 			#print("totalIssues="+str(totalIssues))
