@@ -34,7 +34,7 @@ class IssueComparison(object):
 	def compareIssues(self):
 		#print("comparing file="+self.fileName)
 		
-		#TODO: möglicherweise gibt es hier noch ein Problem mit dem Zählen, wenn mehr als ein ISSUE pro Datei gefunden wird
+		#TODO: mï¿½glicherweise gibt es hier noch ein Problem mit dem Zï¿½hlen, wenn mehr als ein ISSUE pro Datei gefunden wird
 		'''for issue in self.existingIssues:
 			#if(issue.filePath=='cwe89_sql_injection__getquerystring_servlet_execute_61a.java'):
 				#print(issue.filePath)
@@ -84,7 +84,7 @@ class IssueComparison(object):
 							correctMatchCnt=True
 						elif issue.lineNumber==testIssue.lineNumber and issue.category!="CWE"+testIssue.cwe and issue.endLine==-1:
 							differentTypeMatches = True
-						elif issue.startLine!=-1 and issue.endLine!=-1 and issue.category=="CWE"+testIssue.cwe:
+						elif issue.startLine!=-1 and issue.endLine!=-1 and issue.category=="CWE"+testIssue.cwe and testIssue.lineNumber >= issue.startLine and testIssue.lineNumber <= issue.endLine:
 							rangeMatch=True
 						elif issue.category=="CWE"+testIssue.cwe:
 							differentLineMatches=True

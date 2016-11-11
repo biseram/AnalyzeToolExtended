@@ -95,17 +95,11 @@
 	<scannerCode desc="DMI_CONSTANT_DB_PASSWORD" name="CDBP">
 		<cwe id="256" />
 	</scannerCode>
-	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_COOKIE" name="RPHH">
+	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_COOKIE" name="RPTC">
 		<cwe id="113" />
 	</scannerCode>
 	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_HTTP_HEADER" name="RPHH">
 		<cwe id="113" />
-	</scannerCode>
-	<scannerCode desc="PT_ABSOLUTE_PATH_TRAVERSAL" name="PTAPT">
-		<cwe id="36" />
-	</scannerCode>
-	<scannerCode desc="PT_RELATIVE_PATH_TRAVERSAL" name="PTRPT">
-		<cwe id="23" />
 	</scannerCode>
 	<scannerCode desc="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" name="NSTM">
 		<cwe id="90" />
@@ -216,23 +210,14 @@
 	<scannerCode desc="CIPHER_INTEGRITY" name="PADORA">
 		<cwe id="353" />
 	</scannerCode>
-	<scannerCode desc="" name="CCHC">
-		<cwe id="" />
+	<scannerCode desc="DMI_HARDCODED_ABSOLUTE_FILENAME" name="CCHC">
+		<cwe id="171" />
+		<cwe id="647" />
 	</scannerCode>
-	<scannerCode desc="" name="RPTC">
-		<cwe id="" />
+	<scannerCode desc="PT_RELATIVE_PATH_TRAVERSAL" name="REPT">
+		<cwe id="23" />
 	</scannerCode>
-	<scannerCode desc="" name="REPT">
-		<cwe id="" />
-	</scannerCode>
-	<scannerCode desc="" name="ABPT">
-		<cwe id="" />
+	<scannerCode desc="PT_ABSOLUTE_PATH_TRAVERSAL" name="ABPT">
+		<cwe id="36" />
 	</scannerCode>
 </mappings>
-
-	<!--
-
-	HTTPONLY_COOKIE OWASP: HttpOnly   name="SECHOC"
-	ECB_MODE
-
-	-->

@@ -98,12 +98,6 @@
 	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_HTTP_HEADER" name="RPHH">
 		<cwe id="113" />
 	</scannerCode>
-	<scannerCode desc="PT_ABSOLUTE_PATH_TRAVERSAL" name="PTAPT">
-		<cwe id="36" />
-	</scannerCode>
-	<scannerCode desc="PT_RELATIVE_PATH_TRAVERSAL" name="PTRPT">
-		<cwe id="23" />
-	</scannerCode>
 	<scannerCode desc="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" name="NSTM">
 		<cwe id="90" />
 	</scannerCode>
@@ -140,165 +134,127 @@
 	<scannerCode desc="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" name="UUPPF">
 		<cwe id="563" />
 	</scannerCode>
-
-	<scannerCode desc="" name="ABPT">
+	<scannerCode desc="PT_ABSOLUTE_PATH_TRAVERSAL" name="ABPT">
+		<cwe id="36" />
+	</scannerCode>
+	<scannerCode desc="INT_BAD_COMPARISON_WITH_SIGNED_BYTE" name="BCSB">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="BCSB">
+	<scannerCode desc="INT_BAD_COMPARISON_WITH_INT_VALUE" name="BCWI">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="BCWI">
+	<scannerCode desc="DMI_HARDCODED_ABSOLUTE_FILENAME" name="CCHC">
+		<cwe id="171" />
+		<cwe id="647" />
+	</scannerCode>
+	<scannerCode desc="SE_NO_SERIALVERSIONID" name="CNSV">
+		<cwe id="589" />
+	</scannerCode>
+	<scannerCode desc="DB_DUPLICATE_BRANCHES" name="DBIM">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="CCHC">
+	<scannerCode desc="DM_DEFAULT_ENCODING" name="DEEN">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="CNSV">
+	<scannerCode desc="ES_COMPARING_STRINGS_WITH_EQ" name="DSCO">
+		<cwe id="595" />
+		<cwe id="597" />
+	</scannerCode>
+	<scannerCode desc="DLS_DEAD_LOCAL_STORE" name="DSLV">
+		<cwe id="81" />
+	</scannerCode>
+	<scannerCode desc="FI_NULLIFY_SUPER" name="FNUF">
+		<cwe id="586" />
+	</scannerCode>
+	<scannerCode desc="MS_PKGPROTECT" name="FSPP">
+		<cwe id="607" />
+	</scannerCode>
+	<scannerCode desc="DM_STRING_CTOR" name="IODC">
+		<cwe id="1001" />
+	</scannerCode>
+	<scannerCode desc="DMI_INVOKING_TOSTRING_ON_ARRAY" name="IOTS">
+		<cwe id="440" />
+	</scannerCode>
+	<scannerCode desc="NP_LOAD_OF_KNOWN_NULL_VALUE" name="LKNV">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="QBA_QUESTIONABLE_BOOLEAN_ASSIGNMENT" name="MABL">
+		<cwe id="481" />
+	</scannerCode>
+	<scannerCode desc="NP_NULL_PARAM_DEREF_ALL_TARGETS_DANGEROUS" name="MCPN1">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="EI_EXPOSE_REP2" name="MEIR">
+		<cwe id="374" />
+	</scannerCode>
+	<scannerCode desc="IL_INFINITE_RECURSIVE_LOOP" name="MIIU">
+		<cwe id="835" />
+	</scannerCode>
+	<scannerCode desc="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" name="MIRV1">
+		<cwe id="253" />
+	</scannerCode>
+	<scannerCode desc="EI_EXPOSE_REP" name="MRRM">
+		<cwe id="374" />
+	</scannerCode>
+	<scannerCode desc="SWL_SLEEP_WITH_LOCK_HELD" name="MSWL">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="DBIM">
+	<scannerCode desc="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE" name="NOVP">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="UL_UNRELEASED_LOCK_EXCEPTION_PATH" name="NRLE">
+		<cwe id="404" />
+	</scannerCode>
+	<scannerCode desc="NP_GUARANTEED_DEREF" name="NVGD">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="NP_NULL_PARAM_DEREF_NONVIRTUAL" name="NVMC">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="PT_RELATIVE_PATH_TRAVERSAL" name="REPT">
+		<cwe id="23" />
+	</scannerCode>
+	<scannerCode desc="RR_NOT_CHECKED" name="RIRI">
+		<cwe id="252" />
+	</scannerCode>
+	<scannerCode desc="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" name="RNCN">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" name="RNCV">
+		<cwe id="476" />
+	</scannerCode>
+	<scannerCode desc="RV_REM_OF_RANDOM_INT" name="ROSR">
+		<cwe id="129" />
+		<cwe id="190" />
+	</scannerCode>
+	<scannerCode desc="HRS_REQUEST_PARAMETER_TO_COOKIE" name="RPTC">
+		<cwe id="113" />
+	</scannerCode>
+	<scannerCode desc="SA_LOCAL_SELF_ASSIGNMENT" name="SALV">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="DEEN">
+	<scannerCode desc="SF_SWITCH_NO_DEFAULT" name="SWND">
+		<cwe id="478" />
+	</scannerCode>
+	<scannerCode desc="UCF_USELESS_CONTROL_FLOW" name="UCFM">
+		<cwe id="691" />
+	</scannerCode>
+	<scannerCode desc="OBL_UNSATISFIED_OBLIGATION" name="UNOB">
+		<cwe id="459" />
+	</scannerCode>
+	<scannerCode desc="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" name="UNPP">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="DSCO">
+	<scannerCode desc="URF_UNREAD_FIELD" name="UNRF">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="DSLV">
+	<scannerCode desc="INT_VACUOUS_COMPARISON" name="VCIV">
+		<cwe id="839" />
+	</scannerCode>
+	<scannerCode desc="NP_GUARANTEED_DEREF_ON_EXCEPTION_PATH" name="VNGD">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="FNUF">
+	<scannerCode desc="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" name="WTSF">
 		<cwe id="" />
 	</scannerCode>
-
-	<scannerCode desc="" name="FSPP">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="IODC">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="IOTS">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="LKNV">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MABL">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MCPN1">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MEIR">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MIIU">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MIRV1">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MRRM">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="MSWL">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="NOVP">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="NRLE">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="NVGD">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="NVMC">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="REPT">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="RIRI">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="RNCN">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="RNCV">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="ROSR">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="RPTC">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="SALV">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="SWND">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="UCFM">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="UNOB">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="UNPP">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="UNRF">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="VCIV">
-		<cwe id="" />
-
-	</scannerCode>
-	<scannerCode desc="" name="VNGD">
-		<cwe id="" />
-	</scannerCode>
-
-	<scannerCode desc="" name="WTSF">
-		<cwe id="" />
-	</scannerCode>
-
 </mappings>
