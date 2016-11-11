@@ -84,8 +84,9 @@ class IssueComparison(object):
 							correctMatchCnt=True
 						elif issue.lineNumber==testIssue.lineNumber and issue.category!="CWE"+testIssue.cwe and issue.endLine==-1:
 							differentTypeMatches = True
-						elif issue.startLine!=-1 and issue.endLine!=-1 and issue.category=="CWE"+testIssue.cwe:
+						elif issue.startLine!=-1 and issue.endLine!=-1 and issue.category=="CWE"+testIssue.cwe and testIssue.lineNumber >= issue.startLine and testIssue.lineNumber <= issue.endLine:	#I just changed this logic to capture TP and FP correctly - Tosin
 							rangeMatch=True
+							print(str(issue.lineNumber)+"; "+issue.category+"; "+testIssue.lineNumber+"; CWE"+testIssue.cwe)
 						elif issue.category=="CWE"+testIssue.cwe:
 							differentLineMatches=True
 						else:
