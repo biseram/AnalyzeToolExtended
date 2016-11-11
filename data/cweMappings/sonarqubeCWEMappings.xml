@@ -36,6 +36,7 @@
 	<scannerCode desc="Pseudorandom number generators (PRNGs) should not be used in secure contexts" name="S2245">
 	    <cwe id="326" />
 	    <cwe id="330" />
+		<cwe id="310" />
 	    <cwe id="338" />
 	</scannerCode>
 	<scannerCode desc="Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)" name="S2277">
@@ -196,11 +197,9 @@
 	<scannerCode desc="Equality operators should not be used in 'for' loop termination conditions" name="S888">
 	    <cwe id="835" />
 	</scannerCode>
-
 	<scannerCode desc=" " name="ClassVariableVisibilityCheck">
-	    <cwe id="" />
+	    <cwe id="493" />
 	</scannerCode>
-
 	<scannerCode desc=" " name="CommentedOutCodeLine">
 	    <cwe id="" />
 	</scannerCode>
@@ -214,7 +213,7 @@
 	</scannerCode>
 
 	<scannerCode desc=" " name="ObjectFinalizeCheck">
-	    <cwe id="" />
+	    <cwe id="586" />
 	</scannerCode>
 
 	<scannerCode desc=" " name="ObjectFinalizeOverridenCheck">
@@ -222,10 +221,10 @@
 	</scannerCode>
 
 	<scannerCode desc=" " name="S00100">
-	    <cwe id="" />
+	    <cwe id="81" />
 	</scannerCode>
 	<scannerCode desc=" " name="S00101">
-	    <cwe id="" />
+	    <cwe id="81" />
 	</scannerCode>
 	<scannerCode desc=" " name="S00108">
 	    <cwe id="" />

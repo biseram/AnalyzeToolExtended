@@ -14,9 +14,6 @@
 	<scannerCode desc="Access Control: LDAP" name="Access Control: LDAP">
 	    <cwe id="639" />
 	</scannerCode>
-	<!--scannerCode desc="Access Control: SecurityManager Bypass" name="Access Control: SecurityManager Bypass">
-	    <cwe id="" />
-	</scannerCode-->
 	<scannerCode desc="Access Control: Weak Security Constraint" name="Access Control: Weak Security Constraint">
 	    <cwe id="285" />
 	</scannerCode>
@@ -38,12 +35,6 @@
 	<scannerCode desc="Cookie Security: HTTPOnly not Set" name="Cookie Security: HTTPOnly not Set">
 	    <cwe id="87" />
 	</scannerCode>
-	<!--scannerCode desc="Cookie Security: Overly Broad Domain" name="Cookie Security: Overly Broad Domain">
-	    <cwe id="" />
-	</scannerCode>
-	<scannerCode desc="Cookie Security: Overly Broad Path" name="Cookie Security: Overly Broad Path">
-	    <cwe id="" />
-	</scannerCode-->
 	<scannerCode desc="Cookie Security: Persistent Cookie" name="Cookie Security: Persistent Cookie">
 	    <cwe id="539" />
 	</scannerCode>
@@ -246,326 +237,180 @@
 	<scannerCode desc="" name="Command Injection">
 	    <cwe id="78" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Cross-Site Scripting: Persistent">
-	    <cwe id="" />
+	    <cwe id="79" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Cross-Site Scripting: Reflected">
-	    <cwe id="" />
+	    <cwe id="79" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Dead Code: Expression is Always false">
-	    <cwe id="" />
+	    <cwe id="570" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Dead Code: Expression is Always true">
-	    <cwe id="" />
+	    <cwe id="571" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Dead Code: Unused Method">
-	    <cwe id="" />
+	    <cwe id="561" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Denial of Service">
-	    <cwe id="" />
+	    <cwe id="730" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Denial of Service: Format String">
-	    <cwe id="" />
+	    <cwe id="730" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Denial of Service: Parse Double">
-	    <cwe id="" />
+	    <cwe id="730" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Dynamic Code Evaluation: Unsafe Deserialization">
-	    <cwe id="" />
+	    <cwe id="502" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Header Manipulation">
-	    <cwe id="" />
+	    <cwe id="113" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Header Manipulation: Cookies">
-	    <cwe id="" />
+	    <cwe id="113" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Insecure Transport: Mail Transmission">
-	    <cwe id="" />
+	    <cwe id="200" />
 	</scannerCode>
-
-	<scannerCode desc="" name="J2EE Bad Practices: getConnection(">
-	    <cwe id="" />
+	<scannerCode desc="" name="J2EE Bad Practices: getConnection()">
+	    <cwe id="245" />
 	</scannerCode>
-
 	<scannerCode desc="" name="J2EE Bad Practices: Insufficient Session Expiration">
-	    <cwe id="" />
+	    <cwe id="613" />
 	</scannerCode>
-
 	<scannerCode desc="" name="J2EE Bad Practices: JVM Termination">
-	    <cwe id="" />
+	    <cwe id="382" />
 	</scannerCode>
-
 	<scannerCode desc="" name="J2EE Bad Practices: Leftover Debug Code">
-	    <cwe id="" />
+	    <cwe id="489" />
 	</scannerCode>
-
 	<scannerCode desc="" name="J2EE Bad Practices: Non-Serializable Object Stored in Session">
-	    <cwe id="" />
+	    <cwe id="579" />
 	</scannerCode>
-
 	<scannerCode desc="" name="J2EE Bad Practices: Sockets">
-	    <cwe id="" />
+	    <cwe id="246" />
 	</scannerCode>
-
 	<scannerCode desc="" name="J2EE Bad Practices: Threads">
-	    <cwe id="" />
+	    <cwe id="383" />
 	</scannerCode>
-
 	<scannerCode desc="" name="LDAP Injection">
 	    <cwe id="90" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Log Forging">
-	    <cwe id="" />
+	    <cwe id="117" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Missing Check against Null">
-	    <cwe id="" />
+	    <cwe id="253" />
+		<cwe id="690" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Null Dereference">
-	    <cwe id="" />
+	    <cwe id="476" />
 	</scannerCode>
-
-	<scannerCode desc="" name="Object Model Violation: Erroneous clone( Method">
-	    <cwe id="" />
+	<scannerCode desc="" name="Object Model Violation: Erroneous clone() Method">
+	    <cwe id="580" />
 	</scannerCode>
-
-	<scannerCode desc="" name="Object Model Violation: Just one of equals( and hashCode( Defined">
-	    <cwe id="" />
+	<scannerCode desc="" name="Object Model Violation: Just one of equals() and hashCode() Defined">
+	    <cwe id="581" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Obsolete">
-	    <cwe id="" />
+	    <cwe id="477" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Often Misused: Authentication">
-	    <cwe id="" />
+	    <cwe id="247" />
+		<cwe id="292" />
+		<cwe id="558" />
+		<cwe id="807" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Open Redirect">
-	    <cwe id="" />
+	    <cwe id="601" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Path Manipulation">
-	    <cwe id="" />
+	    <cwe id="22" />
+		<cwe id="73" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Error Handling: Empty Catch Block">
-	    <cwe id="" />
+	    <cwe id="391" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Error Handling: Overly Broad Catch">
-	    <cwe id="" />
+	    <cwe id="396" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Error Handling: Overly Broad Throws">
-	    <cwe id="" />
+	    <cwe id="397" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Error Handling: Program Catches NullPointerException">
-	    <cwe id="" />
+	    <cwe id="395" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Error Handling: Return Inside Finally">
-	    <cwe id="" />
+	    <cwe id="584" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Logging Practice: Use of a System Output Stream">
-	    <cwe id="" />
+	    <cwe id="398" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Style: Empty Synchronized Block">
-	    <cwe id="" />
+	    <cwe id="585" />
 	</scannerCode>
-
-	<scannerCode desc="" name="Poor Style: Explicit Call to finalize(">
-	    <cwe id="" />
+	<scannerCode desc="" name="Poor Style: Explicit Call to finalize()">
+	    <cwe id="586" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Style: Non-final Public Static Field">
-	    <cwe id="" />
+	    <cwe id="493" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Style: Redundant Initialization">
-	    <cwe id="" />
+	    <cwe id="398" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Poor Style: Value Never Read">
-	    <cwe id="" />
+	    <cwe id="563" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Portability Flaw: File Separator">
-	    <cwe id="" />
+	    <cwe id="474" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Process Control">
-	    <cwe id="" />
+	    <cwe id="494" />
+		<cwe id="114" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Race Condition: Singleton Member Field">
-	    <cwe id="" />
+	    <cwe id="362" />
+		<cwe id="488" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Redundant Null Check">
-	    <cwe id="" />
+	    <cwe id="476" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Resource Injection">
-	    <cwe id="" />
+	    <cwe id="99" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Setting Manipulation">
-	    <cwe id="" />
+	    <cwe id="15" />
 	</scannerCode>
-
 	<scannerCode desc="" name="SQL Injection">
-	    <cwe id="" />
+	    <cwe id="89" />
 	</scannerCode>
-
 	<scannerCode desc="" name="System Information Leak: External">
-	    <cwe id="" />
+	    <cwe id="497" />
 	</scannerCode>
-
 	<scannerCode desc="" name="System Information Leak: Internal">
-	    <cwe id="" />
+	    <cwe id="497" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Unchecked Return Value">
-	    <cwe id="" />
+	    <cwe id="252" />
+		<cwe id="754" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Unreleased Resource: Database">
-	    <cwe id="" />
+	    <cwe id="404" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Unreleased Resource: Files">
-	    <cwe id="" />
+	    <cwe id="404" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Unreleased Resource: Streams">
-	    <cwe id="" />
+	    <cwe id="404" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Unsafe JNI">
 	    <cwe id="111" />
 	</scannerCode>
-
 	<scannerCode desc="" name="Unsafe Reflection">
 	    <cwe id="470" />
 	</scannerCode>
-
 	<scannerCode desc="" name="XPath Injection">
 	    <cwe id="643" />
 	</scannerCode>
-
-	Access Specifier Manipulation
-	Code Correctness: Call to sleep( in Lock
-	Code Correctness: Call to Thread.run(
-	Code Correctness: Class Does Not Implement equals
-	Code Correctness: Double-Checked Locking
-	Code Correctness: Erroneous finalize( Method
-	Code Correctness: Erroneous String Compare
-	Code Correctness: Multiple Stream Commits
-	Code Correctness: toString on Array
-
-	Command Injection
-
-	Cross-Site Scripting: Persistent
-	Cross-Site Scripting: Reflected
-
-	Dead Code: Expression is Always false
-	Dead Code: Expression is Always true
-	Dead Code: Unused Method
-
-	Denial of Service
-	Denial of Service: Format String
-	Denial of Service: Parse Double
-
-	Dynamic Code Evaluation: Unsafe Deserialization
-
-	Header Manipulation
-	Header Manipulation: Cookies
-
-	Insecure Transport: Mail Transmission
-
-	J2EE Bad Practices: getConnection(
-	J2EE Bad Practices: Insufficient Session Expiration
-	J2EE Bad Practices: JVM Termination
-	J2EE Bad Practices: Leftover Debug Code
-	J2EE Bad Practices: Non-Serializable Object Stored in Session
-	J2EE Bad Practices: Sockets
-	J2EE Bad Practices: Threads
-
-	LDAP Injection
-
-	Log Forging
-
-	Missing Check against Null
-
-	Null Dereference
-
-	Object Model Violation: Erroneous clone( Method
-	Object Model Violation: Just one of equals( and hashCode( Defined
-
-
-	Obsolete
-	Often Misused: Authentication
-	Open Redirect
-	Path Manipulation
-
-	Poor Error Handling: Empty Catch Block
-	Poor Error Handling: Overly Broad Catch
-	Poor Error Handling: Overly Broad Throws
-	Poor Error Handling: Program Catches NullPointerException
-	Poor Error Handling: Return Inside Finally
-
-	Poor Logging Practice: Use of a System Output Stream
-
-	Poor Style: Empty Synchronized Block
-	Poor Style: Explicit Call to finalize(
-	Poor Style: Non-final Public Static Field
-	Poor Style: Redundant Initialization
-	Poor Style: Value Never Read
-
-	Portability Flaw: File Separator
-
-	Process Control
-
-	Race Condition: Singleton Member Field
-
-	Redundant Null Check
-
-	Resource Injection
-
-	Setting Manipulation
-
-	SQL Injection
-
-	System Information Leak: External
-	System Information Leak: Internal
-
-	Unchecked Return Value
-
-	Unreleased Resource: Database
-	Unreleased Resource: Files
-	Unreleased Resource: Streams
-
-	Unsafe JNI
-	Unsafe Reflection
-
-	XPath Injection
-
 </mappings>
