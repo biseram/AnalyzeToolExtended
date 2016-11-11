@@ -247,6 +247,10 @@
         <item child="FindBugs$PTRPT" parent="File%20Handling"/>
         <item child="FindBugs$SFSND" parent="Code%20Quality"/>
         <item child="FindBugs$UUPPF" parent="Code%20Quality"/>
+        <item child="FindBugs$ABPT" parent="File%20Handling"/>
+
+
+
         <item child="PMD$ECBL" parent="Error%20Handling"/>
         <item child="PMD$OEQHAS" parent="Miscellaneous"/>
         <item child="PMD$DCLO" parent="Control%20Flow%20Management"/>

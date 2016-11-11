@@ -34,7 +34,7 @@ class IssueComparison(object):
 	def compareIssues(self):
 		#print("comparing file="+self.fileName)
 		
-		#TODO: möglicherweise gibt es hier noch ein Problem mit dem Zählen, wenn mehr als ein ISSUE pro Datei gefunden wird
+		#TODO: mï¿½glicherweise gibt es hier noch ein Problem mit dem Zï¿½hlen, wenn mehr als ein ISSUE pro Datei gefunden wird
 		'''for issue in self.existingIssues:
 			#if(issue.filePath=='cwe89_sql_injection__getquerystring_servlet_execute_61a.java'):
 				#print(issue.filePath)
