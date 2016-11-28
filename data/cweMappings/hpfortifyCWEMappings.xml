@@ -204,213 +204,228 @@
 	<scannerCode desc="Weak SecurityManager Check: Overridable Method" name="Weak SecurityManager Check: Overridable Method">
 	    <cwe id="358" />
 	</scannerCode>
-	<scannerCode desc="System Information Leak: Internal" name="System Information Leak: Internal">
-	    <cwe id="497" />
-	</scannerCode>
-	<scannerCode desc="" name="Access Specifier Manipulation">
+	<scannerCode desc="Access Specifier Manipulation" name="Access Specifier Manipulation">
 	    <cwe id="492" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Call to sleep() in Lock">
+	<scannerCode desc="Code Correctness: Call to sleep() in Lock" name="Code Correctness: Call to sleep() in Lock">
 	    <cwe id="557" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Call to Thread.run()">
+	<scannerCode desc="Code Correctness: Call to Thread.run(" name="Code Correctness: Call to Thread.run(">
 	    <cwe id="572" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Class Does Not Implement equals">
+	<scannerCode desc="Code Correctness: Class Does Not Implement equals" name="Code Correctness: Class Does Not Implement equals">
 	    <cwe id="398" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Double-Checked Locking">
+	<scannerCode desc="Code Correctness: Double-Checked Locking" name="Code Correctness: Double-Checked Locking">
 	    <cwe id="609" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Erroneous finalize() Method">
+	<scannerCode desc="Code Correctness: Erroneous finalize() Method" name="Code Correctness: Erroneous finalize() Method">
 	    <cwe id="568" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Erroneous String Compare">
+	<scannerCode desc="Code Correctness: Erroneous String Compare" name="Code Correctness: Erroneous String Compare">
 	    <cwe id="597" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: Multiple Stream Commits">
+	<scannerCode desc="Code Correctness: Multiple Stream Commits" name="Code Correctness: Multiple Stream Commits">
 	    <cwe id="398" />
 	</scannerCode>
-	<scannerCode desc="" name="Code Correctness: toString on Array">
+	<scannerCode desc="Code Correctness: toString on Array" name="Code Correctness: toString on Array">
 	    <cwe id="398" />
 	</scannerCode>
-	<scannerCode desc="" name="Command Injection">
+	<scannerCode desc="Command Injection" name="Command Injection">
 	    <cwe id="78" />
 	</scannerCode>
-	<scannerCode desc="" name="Cross-Site Scripting: Persistent">
+	<scannerCode desc="Cross-Site Scripting: Persistent" name="Cross-Site Scripting: Persistent">
 	    <cwe id="79" />
 	</scannerCode>
-	<scannerCode desc="" name="Cross-Site Scripting: Reflected">
+	<scannerCode desc="Cross-Site Scripting: Reflected" name="Cross-Site Scripting: Reflected">
 	    <cwe id="79" />
 	</scannerCode>
-	<scannerCode desc="" name="Dead Code: Expression is Always false">
+	<scannerCode desc="Dead Code: Expression is Always false" name="Dead Code: Expression is Always false">
 	    <cwe id="570" />
 	</scannerCode>
-	<scannerCode desc="" name="Dead Code: Expression is Always true">
+	<scannerCode desc="Dead Code: Expression is Always true" name="Dead Code: Expression is Always true">
 	    <cwe id="571" />
 	</scannerCode>
-	<scannerCode desc="" name="Dead Code: Unused Method">
+	<scannerCode desc="Dead Code: Unused Method" name="Dead Code: Unused Method">
 	    <cwe id="561" />
 	</scannerCode>
-	<scannerCode desc="" name="Denial of Service">
+	<scannerCode desc="Denial of Service" name="Denial of Service">
 	    <cwe id="730" />
 	</scannerCode>
-	<scannerCode desc="" name="Denial of Service: Format String">
+	<scannerCode desc="Denial of Service: Format String" name="Denial of Service: Format String">
 	    <cwe id="730" />
 	</scannerCode>
-	<scannerCode desc="" name="Denial of Service: Parse Double">
+	<scannerCode desc="Denial of Service: Parse Double" name="Denial of Service: Parse Double">
 	    <cwe id="730" />
 	</scannerCode>
-	<scannerCode desc="" name="Dynamic Code Evaluation: Unsafe Deserialization">
+	<scannerCode desc="Dynamic Code Evaluation: Unsafe Deserialization" name="Dynamic Code Evaluation: Unsafe Deserialization">
 	    <cwe id="502" />
 	</scannerCode>
-	<scannerCode desc="" name="Header Manipulation">
+	<scannerCode desc="Header Manipulation" name="Header Manipulation">
 	    <cwe id="113" />
 	</scannerCode>
-	<scannerCode desc="" name="Header Manipulation: Cookies">
+	<scannerCode desc="Header Manipulation: Cookies" name="Header Manipulation: Cookies">
 	    <cwe id="113" />
 	</scannerCode>
-	<scannerCode desc="" name="Insecure Transport: Mail Transmission">
+	<scannerCode desc="Insecure Transport: Mail Transmission" name="Insecure Transport: Mail Transmission">
 	    <cwe id="200" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: getConnection()">
+	<scannerCode desc="J2EE Bad Practices: getConnection(" name="J2EE Bad Practices: getConnection(">
 	    <cwe id="245" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: Insufficient Session Expiration">
+	<scannerCode desc="J2EE Bad Practices: Insufficient Session Expiration" name="J2EE Bad Practices: Insufficient Session Expiration">
 	    <cwe id="613" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: JVM Termination">
+	<scannerCode desc="J2EE Bad Practices: JVM Termination" name="J2EE Bad Practices: JVM Termination">
 	    <cwe id="382" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: Leftover Debug Code">
+	<scannerCode desc="J2EE Bad Practices: Leftover Debug Code" name="J2EE Bad Practices: Leftover Debug Code">
 	    <cwe id="489" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: Non-Serializable Object Stored in Session">
+	<scannerCode desc="J2EE Bad Practices: Non-Serializable Object Stored in Session" name="J2EE Bad Practices: Non-Serializable Object Stored in Session">
 	    <cwe id="579" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: Sockets">
+	<scannerCode desc="J2EE Bad Practices: Sockets" name="J2EE Bad Practices: Sockets">
 	    <cwe id="246" />
 	</scannerCode>
-	<scannerCode desc="" name="J2EE Bad Practices: Threads">
+	<scannerCode desc="J2EE Bad Practices: Threads" name="J2EE Bad Practices: Threads">
 	    <cwe id="383" />
 	</scannerCode>
-	<scannerCode desc="" name="LDAP Injection">
+	<scannerCode desc="LDAP Injection" name="LDAP Injection">
 	    <cwe id="90" />
 	</scannerCode>
-	<scannerCode desc="" name="Log Forging">
+	<scannerCode desc="Log Forging" name="Log Forging">
 	    <cwe id="117" />
 	</scannerCode>
-	<scannerCode desc="" name="Missing Check against Null">
+	<scannerCode desc="Missing Check against Null" name="Missing Check against Null">
 	    <cwe id="253" />
 		<cwe id="690" />
 	</scannerCode>
-	<scannerCode desc="" name="Null Dereference">
+	<scannerCode desc="Null Dereference" name="Null Dereference">
 	    <cwe id="476" />
 	</scannerCode>
-	<scannerCode desc="" name="Object Model Violation: Erroneous clone() Method">
+	<scannerCode desc="Object Model Violation: Erroneous clone() Method" name="Object Model Violation: Erroneous clone() Method">
 	    <cwe id="580" />
 	</scannerCode>
-	<scannerCode desc="" name="Object Model Violation: Just one of equals() and hashCode() Defined">
+	<scannerCode desc="Object Model Violation: Just one of equals() and hashCode() Defined" name="Object Model Violation: Just one of equals() and hashCode() Defined">
 	    <cwe id="581" />
 	</scannerCode>
-	<scannerCode desc="" name="Obsolete">
+	<scannerCode desc="Obsolete" name="Obsolete">
 	    <cwe id="477" />
 	</scannerCode>
-	<scannerCode desc="" name="Often Misused: Authentication">
+	<scannerCode desc="Often Misused: Authentication" name="Often Misused: Authentication">
 	    <cwe id="247" />
 		<cwe id="292" />
 		<cwe id="558" />
 		<cwe id="807" />
 	</scannerCode>
-	<scannerCode desc="" name="Open Redirect">
+	<scannerCode desc="Open Redirect" name="Open Redirect">
 	    <cwe id="601" />
 	</scannerCode>
-	<scannerCode desc="" name="Path Manipulation">
+	<scannerCode desc="Path Manipulation" name="Path Manipulation">
 	    <cwe id="22" />
 		<cwe id="73" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Error Handling: Empty Catch Block">
+	<scannerCode desc="Poor Error Handling: Empty Catch Block" name="Poor Error Handling: Empty Catch Block">
 	    <cwe id="391" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Error Handling: Overly Broad Catch">
+	<scannerCode desc="Poor Error Handling: Overly Broad Catch" name="Poor Error Handling: Overly Broad Catch">
 	    <cwe id="396" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Error Handling: Overly Broad Throws">
+	<scannerCode desc="Poor Error Handling: Overly Broad Throws" name="Poor Error Handling: Overly Broad Throws">
 	    <cwe id="397" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Error Handling: Program Catches NullPointerException">
+	<scannerCode desc="Poor Error Handling: Program Catches NullPointerException" name="Poor Error Handling: Program Catches NullPointerException">
 	    <cwe id="395" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Error Handling: Return Inside Finally">
+	<scannerCode desc="Poor Error Handling: Return Inside Finally" name="Poor Error Handling: Return Inside Finally">
 	    <cwe id="584" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Logging Practice: Use of a System Output Stream">
+	<scannerCode desc="Poor Logging Practice: Use of a System Output Stream" name="Poor Logging Practice: Use of a System Output Stream">
 	    <cwe id="398" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Style: Empty Synchronized Block">
+	<scannerCode desc="Poor Style: Empty Synchronized Block" name="Poor Style: Empty Synchronized Block">
 	    <cwe id="585" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Style: Explicit Call to finalize()">
+	<scannerCode desc="Poor Style: Explicit Call to finalize(" name="Poor Style: Explicit Call to finalize(">
 	    <cwe id="586" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Style: Non-final Public Static Field">
+	<scannerCode desc="Poor Style: Non-final Public Static Field" name="Poor Style: Non-final Public Static Field">
 	    <cwe id="493" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Style: Redundant Initialization">
+	<scannerCode desc="Poor Style: Redundant Initialization" name="Poor Style: Redundant Initialization">
 	    <cwe id="398" />
 	</scannerCode>
-	<scannerCode desc="" name="Poor Style: Value Never Read">
+	<scannerCode desc="Poor Style: Value Never Read" name="Poor Style: Value Never Read">
 	    <cwe id="563" />
 	</scannerCode>
-	<scannerCode desc="" name="Portability Flaw: File Separator">
+	<scannerCode desc="Portability Flaw: File Separator" name="Portability Flaw: File Separator">
 	    <cwe id="474" />
 	</scannerCode>
-	<scannerCode desc="" name="Process Control">
+	<scannerCode desc="Process Control" name="Process Control">
 	    <cwe id="494" />
 		<cwe id="114" />
 	</scannerCode>
-	<scannerCode desc="" name="Race Condition: Singleton Member Field">
+	<scannerCode desc="Race Condition: Singleton Member Field" name="Race Condition: Singleton Member Field">
 	    <cwe id="362" />
 		<cwe id="488" />
 	</scannerCode>
-	<scannerCode desc="" name="Redundant Null Check">
+	<scannerCode desc="Redundant Null Check" name="Redundant Null Check">
 	    <cwe id="476" />
 	</scannerCode>
-	<scannerCode desc="" name="Resource Injection">
+	<scannerCode desc="Resource Injection" name="Resource Injection">
 	    <cwe id="99" />
 	</scannerCode>
-	<scannerCode desc="" name="Setting Manipulation">
+	<scannerCode desc="Setting Manipulation" name="Setting Manipulation">
 	    <cwe id="15" />
 	</scannerCode>
-	<scannerCode desc="" name="SQL Injection">
+	<scannerCode desc="SQL Injection" name="SQL Injection">
 	    <cwe id="89" />
 	</scannerCode>
-	<scannerCode desc="" name="System Information Leak: External">
+	<scannerCode desc="System Information Leak: External" name="System Information Leak: External">
 	    <cwe id="497" />
+	    <cwe id="209" />
 	</scannerCode>
-	<scannerCode desc="" name="System Information Leak: Internal">
+	<scannerCode desc="System Information Leak: Internal" name="System Information Leak: Internal">
 	    <cwe id="497" />
+	    <cwe id="209" />
 	</scannerCode>
-	<scannerCode desc="" name="Unchecked Return Value">
+	<scannerCode desc="System Information Leak" name="System Information Leak">
+	    <cwe id="497" />
+	    <cwe id="209" />
+	</scannerCode>
+	<scannerCode desc="Unchecked Return Value" name="Unchecked Return Value">
 	    <cwe id="252" />
 		<cwe id="754" />
 	</scannerCode>
-	<scannerCode desc="" name="Unreleased Resource: Database">
+	<scannerCode desc="Unreleased Resource: Database" name="Unreleased Resource: Database">
 	    <cwe id="404" />
 	</scannerCode>
-	<scannerCode desc="" name="Unreleased Resource: Files">
+	<scannerCode desc="Unreleased Resource: Files" name="Unreleased Resource: Files">
 	    <cwe id="404" />
 	</scannerCode>
-	<scannerCode desc="" name="Unreleased Resource: Streams">
+	<scannerCode desc="Unreleased Resource: Streams" name="Unreleased Resource: Streams">
 	    <cwe id="404" />
 	</scannerCode>
-	<scannerCode desc="" name="Unsafe JNI">
+	<scannerCode desc="Unsafe JNI" name="Unsafe JNI">
 	    <cwe id="111" />
 	</scannerCode>
-	<scannerCode desc="" name="Unsafe Reflection">
+	<scannerCode desc="Unsafe Reflection" name="Unsafe Reflection">
 	    <cwe id="470" />
 	</scannerCode>
-	<scannerCode desc="" name="XPath Injection">
+	<scannerCode desc="XPath Injection" name="XPath Injection">
 	    <cwe id="643" />
+	</scannerCode>
+	<scannerCode desc="Object Model Violation: Just one of equals( and hashCode( Defined" name="Object Model Violation: Just one of equals( and hashCode( Defined">
+	    <cwe id="581" />
+	</scannerCode>
+	<scannerCode desc="Object Model Violation: Erroneous clone( Method" name="Object Model Violation: Erroneous clone( Method">
+	    <cwe id="580" />
+	</scannerCode>
+	<scannerCode desc="Code Correctness: Call to sleep( in Lock" name="Code Correctness: Call to sleep( in Lock">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc="Code Correctness: Erroneous finalize( Method" name="Code Correctness: Erroneous finalize( Method">
+	    <cwe id="" />
 	</scannerCode>
 </mappings>

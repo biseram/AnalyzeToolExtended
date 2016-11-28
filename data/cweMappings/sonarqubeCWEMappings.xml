@@ -265,6 +265,15 @@
 	<scannerCode desc=" " name="S1141">
 	    <cwe id="" />
 	</scannerCode>
+	<scannerCode desc=" " name="S2096">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S2039">
+	    <cwe id="" />
+	</scannerCode>
+	<scannerCode desc=" " name="S1873">
+	    <cwe id="" />
+	</scannerCode>
 
 	<scannerCode desc=" " name="S1148">
 	    <cwe id="" />
