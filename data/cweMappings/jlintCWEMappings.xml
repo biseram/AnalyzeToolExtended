@@ -21,4 +21,13 @@
 		<cwe id="570" />
 		<cwe id="571" />
 	</scannerCode>
+	<scannerCode desc="Switch case constant * can't be produced by switch expression" name="CCNP">
+		<cwe id="" />
+	</scannerCode>
+	<scannerCode desc="Inequality comparison can be replaced with equality comparison" name="CCBS">
+		<cwe id="" />
+	</scannerCode>
+	<scannerCode desc="Compare strings as object references" name="SCBR">
+		<cwe id="597" />
+	</scannerCode>
 </mappings>
